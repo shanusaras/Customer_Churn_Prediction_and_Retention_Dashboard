@@ -41,7 +41,8 @@ ENV/
 
 # Logs and databases
 *.log
-*.sql
+# Allow project SQL files in sql/ directory
+!sql/*.sql
 *.sqlite
 
 # Environment variables

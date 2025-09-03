@@ -135,23 +135,19 @@ erDiagram
 7. **Customers** and **Sellers** are linked to **Geolocation** via ZIP code prefix
 8. **Products** are linked to **Category Translation** for English category names
 
-## How to Use This ERD
+### How to Use This ERD
 
-### Viewing Options
+#### Viewing Options
 1. **GitHub**: The Mermaid diagram renders automatically in GitHub's markdown viewer
 2. **Interactive Editor**: 
    - Copy the Mermaid code
    - Paste into [Mermaid Live Editor](https://mermaid.live/)
    - Export as PNG/SVG/PDF
-3. **Kaggle Reference**: 
-   - Original schema: [Olist Dataset Schema on Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
-   - Includes additional context and field descriptions
 
 ### ERD Best Practices
 - Use dbdiagram.io for interactive editing and collaboration
 - Use Mermaid for version-controlled documentation
 - Include both entity relationships and attribute details
-- Document cardinality and optionality clearly
 
 ## Key Relationships
 

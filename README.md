@@ -18,8 +18,9 @@ The challenge: Identify which customers are most at risk of churning, understand
 ---
 
 ## 🔹 Dataset  
-**Source**: [Olist Brazilian E-commerce Dataset (Kaggle)](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)  
+**Source**: Olist Brazilian E-commerce Dataset  
 **Size**: ~100k orders across multiple relational tables  
+**Description**: Comprehensive e-commerce dataset containing orders from the Olist Store, a Brazilian marketplace  
 
 **Key tables used**:  
 - `customers.csv` → Customer profiles & location  
@@ -138,4 +139,5 @@ This project highlights:
 - **Business storytelling** (showing revenue at risk & retention impact)  
 
 Designed to showcase a **real-world data analytics workflow** with **direct $$$ impact** for e-commerce businesses.  
+
 
