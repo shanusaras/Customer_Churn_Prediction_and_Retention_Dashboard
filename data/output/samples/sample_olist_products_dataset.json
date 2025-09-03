@@ -1,0 +1,112 @@
+[
+  {
+    "product_id": "1e9e8ef04dbcff4541ed26657ea517e5",
+    "product_category_name": "perfumaria",
+    "product_name_lenght": 40.0,
+    "product_description_lenght": 287.0,
+    "product_photos_qty": 1.0,
+    "product_weight_g": 225,
+    "product_length_cm": 16,
+    "product_height_cm": 10,
+    "product_width_cm": 14
+  },
+  {
+    "product_id": "3aa071139cb16b67ca9e5dea641aaa2f",
+    "product_category_name": "artes",
+    "product_name_lenght": 44.0,
+    "product_description_lenght": 276.0,
+    "product_photos_qty": 1.0,
+    "product_weight_g": 1000,
+    "product_length_cm": 30,
+    "product_height_cm": 18,
+    "product_width_cm": 20
+  },
+  {
+    "product_id": "96bd76ec8810374ed1b65e291975717f",
+    "product_category_name": "esporte_lazer",
+    "product_name_lenght": 46.0,
+    "product_description_lenght": 250.0,
+    "product_photos_qty": 1.0,
+    "product_weight_g": 154,
+    "product_length_cm": 18,
+    "product_height_cm": 9,
+    "product_width_cm": 15
+  },
+  {
+    "product_id": "cef67bcfe19066a932b7673e239eb23d",
+    "product_category_name": "bebes",
+    "product_name_lenght": 27.0,
+    "product_description_lenght": 261.0,
+    "product_photos_qty": 1.0,
+    "product_weight_g": 371,
+    "product_length_cm": 26,
+    "product_height_cm": 4,
+    "product_width_cm": 26
+  },
+  {
+    "product_id": "9dc1a7de274444849c219cff195d0b71",
+    "product_category_name": "utilidades_domesticas",
+    "product_name_lenght": 37.0,
+    "product_description_lenght": 402.0,
+    "product_photos_qty": 4.0,
+    "product_weight_g": 625,
+    "product_length_cm": 20,
+    "product_height_cm": 17,
+    "product_width_cm": 13
+  },
+  {
+    "product_id": "41d3672d4792049fa1779bb35283ed13",
+    "product_category_name": "instrumentos_musicais",
+    "product_name_lenght": 60.0,
+    "product_description_lenght": 745.0,
+    "product_photos_qty": 1.0,
+    "product_weight_g": 200,
+    "product_length_cm": 38,
+    "product_height_cm": 5,
+    "product_width_cm": 11
+  },
+  {
+    "product_id": "732bd381ad09e530fe0a5f457d81becb",
+    "product_category_name": "cool_stuff",
+    "product_name_lenght": 56.0,
+    "product_description_lenght": 1272.0,
+    "product_photos_qty": 4.0,
+    "product_weight_g": 18350,
+    "product_length_cm": 70,
+    "product_height_cm": 24,
+    "product_width_cm": 44
+  },
+  {
+    "product_id": "2548af3e6e77a690cf3eb6368e9ab61e",
+    "product_category_name": "moveis_decoracao",
+    "product_name_lenght": 56.0,
+    "product_description_lenght": 184.0,
+    "product_photos_qty": 2.0,
+    "product_weight_g": 900,
+    "product_length_cm": 40,
+    "product_height_cm": 8,
+    "product_width_cm": 40
+  },
+  {
+    "product_id": "37cc742be07708b53a98702e77a21a02",
+    "product_category_name": "eletrodomesticos",
+    "product_name_lenght": 57.0,
+    "product_description_lenght": 163.0,
+    "product_photos_qty": 1.0,
+    "product_weight_g": 400,
+    "product_length_cm": 27,
+    "product_height_cm": 13,
+    "product_width_cm": 17
+  },
+  {
+    "product_id": "8c92109888e8cdf9d66dc7e463025574",
+    "product_category_name": "brinquedos",
+    "product_name_lenght": 36.0,
+    "product_description_lenght": 1156.0,
+    "product_photos_qty": 1.0,
+    "product_weight_g": 600,
+    "product_length_cm": 17,
+    "product_height_cm": 10,
+    "product_width_cm": 12
+  }
+]

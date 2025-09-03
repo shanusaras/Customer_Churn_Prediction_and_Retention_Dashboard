@@ -1,0 +1,92 @@
+[
+  {
+    "review_id": "7bc2406110b926393aa56f80a40eba40",
+    "order_id": "73fc7af87114b39712e6da79b0a377eb",
+    "review_score": 4,
+    "review_comment_title": NaN,
+    "review_comment_message": NaN,
+    "review_creation_date": "2018-01-18 00:00:00",
+    "review_answer_timestamp": "2018-01-18 21:46:59"
+  },
+  {
+    "review_id": "80e641a11e56f04c1ad469d5645fdfde",
+    "order_id": "a548910a1c6147796b98fdf73dbeba33",
+    "review_score": 5,
+    "review_comment_title": NaN,
+    "review_comment_message": NaN,
+    "review_creation_date": "2018-03-10 00:00:00",
+    "review_answer_timestamp": "2018-03-11 03:05:13"
+  },
+  {
+    "review_id": "228ce5500dc1d8e020d8d1322874b6f0",
+    "order_id": "f9e4b658b201a9f2ecdecbb34bed034b",
+    "review_score": 5,
+    "review_comment_title": NaN,
+    "review_comment_message": NaN,
+    "review_creation_date": "2018-02-17 00:00:00",
+    "review_answer_timestamp": "2018-02-18 14:36:24"
+  },
+  {
+    "review_id": "e64fb393e7b32834bb789ff8bb30750e",
+    "order_id": "658677c97b385a9be170737859d3511b",
+    "review_score": 5,
+    "review_comment_title": NaN,
+    "review_comment_message": "Recebi bem antes do prazo estipulado.",
+    "review_creation_date": "2017-04-21 00:00:00",
+    "review_answer_timestamp": "2017-04-21 22:02:06"
+  },
+  {
+    "review_id": "f7c4243c7fe1938f181bec41a392bdeb",
+    "order_id": "8e6bfb81e283fa7e4f11123a3fb894f1",
+    "review_score": 5,
+    "review_comment_title": NaN,
+    "review_comment_message": "Parab\u00e9ns lojas lannister adorei comprar pela Internet seguro e pr\u00e1tico Parab\u00e9ns a todos feliz P\u00e1scoa",
+    "review_creation_date": "2018-03-01 00:00:00",
+    "review_answer_timestamp": "2018-03-02 10:26:53"
+  },
+  {
+    "review_id": "15197aa66ff4d0650b5434f1b46cda19",
+    "order_id": "b18dcdf73be66366873cd26c5724d1dc",
+    "review_score": 1,
+    "review_comment_title": NaN,
+    "review_comment_message": NaN,
+    "review_creation_date": "2018-04-13 00:00:00",
+    "review_answer_timestamp": "2018-04-16 00:39:37"
+  },
+  {
+    "review_id": "07f9bee5d1b850860defd761afa7ff16",
+    "order_id": "e48aa0d2dcec3a2e87348811bcfdf22b",
+    "review_score": 5,
+    "review_comment_title": NaN,
+    "review_comment_message": NaN,
+    "review_creation_date": "2017-07-16 00:00:00",
+    "review_answer_timestamp": "2017-07-18 19:30:34"
+  },
+  {
+    "review_id": "7c6400515c67679fbee952a7525281ef",
+    "order_id": "c31a859e34e3adac22f376954e19b39d",
+    "review_score": 5,
+    "review_comment_title": NaN,
+    "review_comment_message": NaN,
+    "review_creation_date": "2018-08-14 00:00:00",
+    "review_answer_timestamp": "2018-08-14 21:36:06"
+  },
+  {
+    "review_id": "a3f6f7f6f433de0aefbb97da197c554c",
+    "order_id": "9c214ac970e84273583ab523dfafd09b",
+    "review_score": 5,
+    "review_comment_title": NaN,
+    "review_comment_message": NaN,
+    "review_creation_date": "2017-05-17 00:00:00",
+    "review_answer_timestamp": "2017-05-18 12:05:37"
+  },
+  {
+    "review_id": "8670d52e15e00043ae7de4c01cc2fe06",
+    "order_id": "b9bf720beb4ab3728760088589c62129",
+    "review_score": 4,
+    "review_comment_title": "recomendo",
+    "review_comment_message": "aparelho eficiente. no site a marca do aparelho esta impresso como 3desinfector e ao chegar esta com outro nome...atualizar com a marca correta uma vez que \u00e9 o mesmo aparelho",
+    "review_creation_date": "2018-05-22 00:00:00",
+    "review_answer_timestamp": "2018-05-23 16:45:47"
+  }
+]

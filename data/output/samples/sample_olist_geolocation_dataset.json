@@ -1,0 +1,72 @@
+[
+  {
+    "geolocation_zip_code_prefix": 1037,
+    "geolocation_lat": -23.54562128115268,
+    "geolocation_lng": -46.63929204800168,
+    "geolocation_city": "sao paulo",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": 1046,
+    "geolocation_lat": -23.54608112703553,
+    "geolocation_lng": -46.64482029837157,
+    "geolocation_city": "sao paulo",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": 1046,
+    "geolocation_lat": -23.54612896641469,
+    "geolocation_lng": -46.64295148361138,
+    "geolocation_city": "sao paulo",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": 1041,
+    "geolocation_lat": -23.5443921648681,
+    "geolocation_lng": -46.63949930627844,
+    "geolocation_city": "sao paulo",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": 1035,
+    "geolocation_lat": -23.541577961711493,
+    "geolocation_lng": -46.64160722329613,
+    "geolocation_city": "sao paulo",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": 1012,
+    "geolocation_lat": -23.547762303364262,
+    "geolocation_lng": -46.63536053788448,
+    "geolocation_city": "s\u00e3o paulo",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": 1047,
+    "geolocation_lat": -23.54627311241268,
+    "geolocation_lng": -46.64122516971552,
+    "geolocation_city": "sao paulo",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": 1013,
+    "geolocation_lat": -23.546923208436723,
+    "geolocation_lng": -46.6342636964915,
+    "geolocation_city": "sao paulo",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": 1029,
+    "geolocation_lat": -23.543769055769133,
+    "geolocation_lng": -46.63427784085132,
+    "geolocation_city": "sao paulo",
+    "geolocation_state": "SP"
+  },
+  {
+    "geolocation_zip_code_prefix": 1011,
+    "geolocation_lat": -23.547639550320632,
+    "geolocation_lng": -46.63603162315495,
+    "geolocation_city": "sao paulo",
+    "geolocation_state": "SP"
+  }
+]
