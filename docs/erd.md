@@ -6,8 +6,22 @@
 
 ```mermaid
 erDiagram
-    %%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#f5f5f5', 'primaryBorderColor': '#2d3436', 'lineColor': '#2d3436', 'textColor': '#2d3436' }}}%%
-    
+    %%{init: {'theme': 'dark', 'themeVariables': { 
+        'primaryColor': '#2d2d2d',
+        'primaryBorderColor': '#ffffff',
+        'lineColor': '#4ec9b0',
+        'textColor': '#ffffff',
+        'primaryTextColor': '#ffffff',
+        'fontFamily': 'Arial, sans-serif',
+        'fontSize': '16px',
+        'tertiaryColor': '#2d2d2d'
+    }, 'themeConfig': {
+        'nodeTextMargin': 5,
+        'padding': 10,
+        'nodeBorder': '#ffffff',
+        'borderWidth': 2
+    }}}%%
+
     CUSTOMERS ||--o{ ORDERS : places
     ORDERS ||--|{ ORDER_ITEMS : contains
     ORDERS ||--|{ ORDER_PAYMENTS : has
@@ -18,7 +32,7 @@ erDiagram
     SELLERS }|--|| GEOLOCATION : located_in
     PRODUCTS }|--|| CATEGORY_TRANSLATION : categorized_as
     
-    classDef default fill:#ffffff,stroke:#2d3436,stroke-width:2px,color:#2d3436
+    classDef default fill:#2d2d2d,stroke:#4ec9b0,stroke-width:2.5px,color:#ffffff,font-weight:500,stroke-dasharray: 0
 ```
 
 ## Database Schema
