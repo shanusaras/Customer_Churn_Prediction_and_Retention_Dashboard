@@ -86,14 +86,41 @@ The challenge: Identify which customers are most at risk of churning, understand
 ---
 
 ## 🔹 Project Structure  
+
+```text
 customer-churn-prediction-dashboard/
-│── README.md <- Executive summary (this file)
-│── data/ <- Raw & cleaned CSVs (sample only)
-│── sql/ <- SQL queries for churn KPIs & features
-│── notebooks/ <- Jupyter notebooks (EDA + ML modeling)
-│── src/ <- Python scripts (preprocessing, reporting automation)
-│── tableau/ <- Tableau workbook (.twb/.twbx)
-│── reports/ <- Dashboards, visuals, and presentation exports
+│
+├── README.md               <- Executive summary (this file)
+│
+├── data/                   
+│   ├── raw/                <- Original Olist e-commerce dataset (sample only)
+│   └── processed/          <- Cleaned & feature-engineered data for analysis
+│
+├── sql/                    
+│   ├── churn_kpis.sql      <- SQL queries to calculate churn KPIs
+│   └── feature_eng.sql     <- SQL for feature extraction & joins
+│
+├── notebooks/              
+│   ├── 01_sql_exploration.ipynb   <- SQL data exploration
+│   ├── 02_data_cleaning.ipynb     <- Data preprocessing
+│   ├── 03_eda.ipynb               <- Exploratory data analysis
+│   └── 04_churn_model.ipynb       <- Churn modeling & predictions
+│
+├── src/                    
+│   ├── preprocessing.py    <- Data cleaning & transformation functions
+│   ├── utils.py            <- Helper utilities
+│   └── report_automation.py<- Script for automated churn report
+│
+├── tableau/                
+│   └── churn_dashboard.twbx <- Interactive Tableau dashboard
+│
+├── reports/                
+│   ├── churn_insights.pdf   <- Insight report for stakeholders
+│   ├── dashboard_screens/   <- Tableau dashboard screenshots
+│   └── presentation.pptx    <- Executive presentation slides
+│
+└── requirements.txt         <- Python dependencies
+
 
 ---
 
