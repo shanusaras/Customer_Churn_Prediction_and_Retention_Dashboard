@@ -6,6 +6,8 @@
 
 ```mermaid
 erDiagram
+    %%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#f5f5f5', 'primaryBorderColor': '#2d3436', 'lineColor': '#2d3436', 'textColor': '#2d3436' }}}%%
+    
     CUSTOMERS ||--o{ ORDERS : places
     ORDERS ||--|{ ORDER_ITEMS : contains
     ORDERS ||--|{ ORDER_PAYMENTS : has
@@ -15,6 +17,8 @@ erDiagram
     CUSTOMERS }|--|| GEOLOCATION : lives_in
     SELLERS }|--|| GEOLOCATION : located_in
     PRODUCTS }|--|| CATEGORY_TRANSLATION : categorized_as
+    
+    classDef default fill:#ffffff,stroke:#2d3436,stroke-width:2px,color:#2d3436
 ```
 
 ## Database Schema
