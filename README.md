@@ -3,7 +3,8 @@
 ## 🔹 Business Problem  
 Every month, e-commerce platforms silently lose paying customers. Research shows that **retaining just 5% more users can increase revenue by 20–30%**.  
 
-The challenge: Identify which customers are most at risk of churning, understand *why*, and design **targeted retention strategies** that save revenue.  
+The challenge: Identify which customers are most at risk of churning, understand **why**
+, and design **targeted retention strategies** that save revenue.  
 
 ---
 
@@ -19,16 +20,39 @@ The challenge: Identify which customers are most at risk of churning, understand
 
 ## 🔹 Dataset  
 **Source**: Olist Brazilian E-commerce Dataset  
-**Size**: ~100k orders across multiple relational tables  
-**Description**: Comprehensive e-commerce dataset containing orders from the Olist Store, a Brazilian marketplace  
+**Size**: ~100k orders from 2016-2018 across multiple Brazilian marketplaces  
+
+### About the Data
+This real-world dataset from Olist, Brazil's largest department store in marketplaces, provides a comprehensive view of e-commerce orders. The data has been anonymized and includes:
+- Order details and status tracking
+- Customer purchase history and satisfaction ratings
+- Seller performance metrics
+- Product categories and pricing
+- Geographic distribution of customers and sellers
+
+### Key Features
+- **Real commercial data** from 2016-2018
+- Multiple marketplaces across Brazil
+- Complete order lifecycle tracking
+- Customer satisfaction metrics
+- Geographic data for location-based analysis
+
+*Note: All identifying business information has been anonymized for privacy*
 
 **Key tables used**:  
 - `customers.csv` → Customer profiles & location  
 - `orders.csv` → Order lifecycle & status  
-- `order_items.csv` → Products purchased  
-- `payments.csv` → Payment methods & amounts  
-- `reviews.csv` → Customer satisfaction  
-- `sellers.csv` → Seller performance  
+- `order_items.csv` → Products purchased in each order  
+- `order_payments.csv` → Payment methods & amounts  
+- `order_reviews.csv` → Customer satisfaction & feedback  
+- `sellers.csv` → Seller information & performance  
+- `products.csv` → Product details & categories  
+- `geolocation.csv` → Geographic data by ZIP code  
+- `product_category_translation.csv` → Product category names in English  
+- `sellers_geolocation.csv` → Seller location data  
+- `customers_geolocation.csv` → Customer location data  
+
+*Note: Some tables are denormalized for analysis purposes*
 
 ---
 
