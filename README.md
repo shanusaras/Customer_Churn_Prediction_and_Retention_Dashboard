@@ -37,52 +37,92 @@ This real-world dataset from Olist, Brazil's largest department store in marketp
 - Customer satisfaction metrics
 - Geographic data for location-based analysis
 
+### Sample Data Files
+Sample JSON files are provided in `data/output/samples/` for development and testing purposes. These files:
+- Contain representative subsets of the original CSV data
+- Maintain the same structure as the full dataset
+- Are useful for:
+  - Development and testing of analysis code
+  - Documentation and examples
+  - API testing and development
+  - Version control (smaller than full CSVs)
+
+File naming convention: `sample_<original_filename>.json`
+
 *Note: All identifying business information has been anonymized for privacy*
 
 **Key tables used**:  
-- `customers.csv` → Customer profiles & location  
-- `orders.csv` → Order lifecycle & status  
-- `order_items.csv` → Products purchased in each order  
-- `order_payments.csv` → Payment methods & amounts  
-- `order_reviews.csv` → Customer satisfaction & feedback  
-- `sellers.csv` → Seller information & performance  
-- `products.csv` → Product details & categories  
-- `geolocation.csv` → Geographic data by ZIP code  
-- `product_category_translation.csv` → Product category names in English  
-- `sellers_geolocation.csv` → Seller location data  
-- `customers_geolocation.csv` → Customer location data  
+- `olist_customers_dataset.csv` → Customer profiles & location  
+- `olist_orders_dataset.csv` → Order lifecycle & status  
+- `olist_order_items_dataset.csv` → Products purchased in each order  
+- `olist_order_payments_dataset.csv` → Payment methods & amounts  
+- `olist_order_reviews_dataset.csv` → Customer satisfaction & feedback  
+- `olist_sellers_dataset.csv` → Seller information  
+- `olist_products_dataset.csv` → Product details & categories  
+- `olist_geolocation_dataset.csv` → Geographic coordinates by ZIP code  
+- `product_category_name_translation.csv` → Product category names in English  
 
-*Note: Some tables are denormalized for analysis purposes*
+*Note: All tables follow the original Olist dataset structure*
 
 ---
 
 ## 🔹 Methodology  
 
-### Phase 1: SQL Exploration  
-- Joined relational tables (customers, orders, items, payments, reviews).  
-- Built churn-related KPIs:  
-  - Inactivity (no orders in last 6 months)  
-  - Late deliveries & cancellations  
-  - Poor review scores  
-- Aggregated churn by geography, category, and payment method.  
+### ✅ Phase 1: Data Loading & Initial Setup (Completed)  
+- **Data Documentation**:  
+  - Created comprehensive data dictionary for all key tables  
+  - Developed Entity Relationship Diagram (ERD) showing table relationships  
+  - Documented data types, primary/foreign keys, and relationships  
+- **Churn Definition**:  
+  - Established 90-day inactivity period as churn threshold  
+  - Documented assumptions and business rules  
+  - Created churn calculation methodology  
+- **Project Setup**:  
+  - Organized repository structure  
+  - Set up Jupyter notebooks for analysis  
+  - Documented initial data quality observations  
 
-### Phase 2: Python Analysis & Modeling  
-- Data Cleaning & Preprocessing (null handling, encoding, feature engineering).  
-- EDA: Customer lifecycle, frequency, satisfaction, purchase recency.  
-- Built ML churn model (Logistic Regression, Random Forest).  
-- Segmented customers by churn risk: High, Medium, Low.  
-- Calculated **projected revenue loss** from churned high-value customers.  
+### 🔄 Phase 2: Data Cleaning & Feature Engineering (In Progress)  
+- **Data Cleaning**:  
+  - Handle missing values and outliers  
+  - Standardize data formats and types  
+  - Address data quality issues  
+- **Feature Engineering**:  
+  - RFM (Recency, Frequency, Monetary) metrics  
+  - Behavioral patterns from order history  
+  - Customer engagement metrics  
+- **SQL Implementation**:  
+  - Write optimized queries for feature extraction  
+  - Create materialized views for performance  
 
-### Phase 3: Visualization (Tableau)  
-- Interactive dashboard with:  
-  - **Churn Rate % by lifecycle stage & geography**  
-  - **At-risk customer segments**  
-  - **Revenue at risk (top 10% churners)**  
-  - **Retention campaign impact simulation**  
-- Drilldowns for marketing & product teams.  
+### 📊 Phase 3: Exploratory Data Analysis & Modeling  
+- **Exploratory Analysis**:  
+  - Customer segmentation analysis  
+  - Churn rate by customer segments  
+  - Identification of churn indicators  
+- **Predictive Modeling**:  
+  - Build and evaluate churn prediction models  
+  - Feature importance analysis  
+  - Model interpretation and validation  
 
-### Phase 4 (Optional): Automation  
-- Automated **weekly churn risk report** for business stakeholders using Python scripts.  
+### 📈 Phase 4: Dashboard Development  
+- **Interactive Visualizations**:  
+  - Churn rate trends and patterns  
+  - Customer segment analysis  
+  - Revenue impact of churn  
+- **Executive Summary View**:  
+  - Key performance indicators  
+  - At-risk customer segments  
+  - Recommended actions  
+
+### 🤖 Phase 5: Automation & Reporting (Optional)  
+- **Automated Reports**:  
+  - Weekly churn risk reports  
+  - Performance dashboards  
+  - Alert system for high-risk customers  
+- **API Endpoints**:  
+  - Real-time churn prediction  
+  - Customer health scores  
 
 ---
 
