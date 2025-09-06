@@ -12,13 +12,16 @@ A customer is considered **churned** if they meet **all** of the following crite
 ```
 Churn Status = 
   IF (
-    (CURRENT_DATE - Last_Purchase_Date > 90 days) 
+    ((CURRENT_DATE - Last_Purchase_Date) > 90 days) 
     AND 
     (First_Purchase_Date < Last_Purchase_Date)
   ) 
   THEN "Churned" 
   ELSE "Active"
 ```
+- second condition:
+  - Verifies the customer has made at least two purchases
+  - Ensures they're not a first-time buyer (since first_purchase_date would equal last_purchase_date for first-time buyers)
 
 ## Key Assumptions
 
@@ -33,7 +36,9 @@ Churn Status =
 - **Order Status**: Only orders with status = 'delivered' are considered valid purchases
 
 ### 3. Technical Implementation
-- **Date Handling**: All dates are in UTC
+- **Date Handling**: All dates are in UTC; 
+  - UTC (Coordinated Universal Time) is the primary time standard by which the world regulates clocks and time. It's the same as GMT (Greenwich Mean Time) but without daylight saving time changes.
+  - Why it matters: Using UTC ensures consistency across different time zones, which is crucial for accurate date comparisons in your analysis.
 - **Data Freshness**: Analysis is based on the most recent data available
 - **Missing Data**: Orders with missing delivery dates are excluded from churn calculation
 
