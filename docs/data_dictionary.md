@@ -66,8 +66,8 @@
 |--------|-----------|-------------|
 | product_id | string | Unique product identifier |
 | product_category_name | string | Product category name |
-| product_name_lenght | int | Name length |
-| product_description_lenght | int | Description length |
+| product_name_length | int | Name length |
+| product_description_length | int | Description length |
 | product_photos_qty | int | Number of product photos |
 | product_weight_g | int | Product weight in grams |
 | product_length_cm | int | Product length in cm |
